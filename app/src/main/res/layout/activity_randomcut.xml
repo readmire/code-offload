@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TestRandomGraph">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:focusableInTouchMode="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:focusableInTouchMode="true">
+
+                    <TextView
+                        android:id="@+id/txtVertex"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="135dp"
+                        android:text="Comparison:"
+                        tools:layout_editor_absoluteX="45dp"
+                        tools:layout_editor_absoluteY="110dp" />
+
+                    <TextView
+                        android:id="@+id/txtEdge"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="36dp"
+                        android:layout_marginLeft="36dp"
+                        android:layout_marginTop="272dp"
+                        android:text="Result: " />
+
+                    <Button
+                        android:id="@+id/btnTest"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="296dp"
+                        android:layout_marginLeft="296dp"
+                        android:layout_marginTop="18dp"
+                        android:text="TEST" />
+
+                    <EditText
+                        android:id="@+id/etSize"
+                        android:layout_width="115dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="131dp"
+                        android:layout_marginLeft="131dp"
+                        android:layout_marginTop="21dp"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:selectAllOnFocus="false" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="28dp"
+                        android:layout_marginLeft="28dp"
+                        android:layout_marginTop="41dp"
+                        android:text="Node/Task Size :" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="29dp"
+                        android:layout_marginLeft="29dp"
+                        android:layout_marginTop="71dp"
+                        android:text="Add Optimal Solution (takes time)" />
+
+
+                </RelativeLayout>
+
+
+
+            </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <ScrollView
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".OffloadingFramework"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="35dp"
+                android:text="OFFLOADING  FRAMEWORK (SOFTMoD)"
+                android:textColor="#2196F3"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btn_testapp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="41dp"
+                android:layout_marginLeft="41dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="41dp"
+                android:layout_marginRight="41dp"
+                android:text="TEST FRAMEWORK" />
+
+            <Button
+                android:id="@+id/btn_testgraphcut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="41dp"
+                android:layout_marginLeft="41dp"
+                android:layout_marginTop="21dp"
+                android:layout_marginEnd="41dp"
+                android:layout_marginRight="41dp"
+                android:text="TEST GRAPH CUT" />
+
+            <Button
+                android:id="@+id/btn_testrandomgraph"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="41dp"
+                android:layout_marginLeft="41dp"
+                android:layout_marginTop="19dp"
+                android:layout_marginEnd="41dp"
+                android:layout_marginRight="41dp"
+                android:text="TEST RANDOM GRAPH" />
+
+            <TextView
+                android:id="@+id/txtResult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="44dp"
+                android:text="Result: " />
+
+        </LinearLayout>
+    </ScrollView>
+
+
