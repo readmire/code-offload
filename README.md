@@ -1,10 +1,6 @@
 # code-offload
 mobile cloud computing- SOFTMOD Project
-
-
-
-
- 
+![graph](https://user-images.githubusercontent.com/3878607/63945047-63765b80-ca7b-11e9-92a7-c7be335b77b4.JPG) 
 
 Figure 1: Method call graph
 
