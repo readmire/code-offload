@@ -18,9 +18,9 @@ b.doB(new byte[40]);
 c.doC(new byte[80]);
 
 
-The framework starts to profile each object and its methods to create method call graph in Figure 1.
+The framework starts to profile each object and its methods to create the method call graph in Figure 1.
 
-Then this method call graph is converted to the cost graph in order to apply partitioning algorithms to find best partition for productive code offloading.
+Then this method call graph is converted to a cost graph in order to apply partitioning algorithms to find best partition for productive code offloading.
 ---
 
 in app/src/main/java/readmire/offloadingframework/  
