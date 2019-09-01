@@ -28,8 +28,8 @@ there is an offloadingframework class creating the call graph in Figure 1.
 This call graph is created and solved automatically.
 
 in app/src/main/java/readmire/TestGraphCut   
-there is a GraphCut class, you can create the graphs manually and solve it by partitioning algorithms provided.
+there is a GraphCut class, you can create the graphs manually and solve it by the partitioning algorithms provided.
 
 in app/src/main/java/readmire/TestRandomGraph 
-there is a RandomGraphGenerator, you can create a random graph having desired number of tasks and then solve it by partitioning algorithms.
+there is a RandomGraphGenerator, you can create a random graph having desired number of tasks and then solve it by the partitioning algorithms.
 
