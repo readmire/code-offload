@@ -1,5 +1,5 @@
 # code-offload
-mobile cloud computing- SOFTMOD Project
+mobile cloud computing- SOFTMoD Project
 ![](graph.JPG)
 Figure 1: Method call graph
 
