@@ -1,7 +1,7 @@
 # code-offload
 mobile cloud computing- SOFTMoD Project
 ![](graph.JPG)
-Figure 1: Method call graph
+Figure 1: Method call graph (Object Dependency Graph)
 
 This method call graph is created by the SOFTMoD code offloading framework. 
 Each object is created by the framework and desired method is called as below:
